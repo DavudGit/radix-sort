@@ -6,6 +6,7 @@ import scala.annotation.tailrec
 object Radix {
   def sortRadix(listRaw: List[String]): List[String] = {
 
+    // get max
     val wMax = listRaw.map(_.length).max
 
     @tailrec
